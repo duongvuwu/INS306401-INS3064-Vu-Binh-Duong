@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Contact Form</title>
+    <style>
+        body { font-family: Arial; padding: 30px; }
+        input, textarea { width: 100%; padding: 8px; margin: 5px 0; }
+        button { padding: 10px 15px; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+
+<h2>Contact Form</h2>
+
+<form action="submit.php" method="POST">
+    <label>Name:</label>
+    <input type="text" name="name">
+
+    <label>Email:</label>
+    <input type="email" name="email">
+
+    <label>Message:</label>
+    <textarea name="message"></textarea>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
